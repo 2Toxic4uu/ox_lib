@@ -162,11 +162,11 @@ const Notifications: React.FC = () => {
                   <Avatar
                     color={
                       data.type === 'error'
-                        ? 'red'
+                        ? 'orange'
                         : data.type === 'success'
-                        ? 'teal'
+                        ? 'pink'
                         : data.type === 'warning'
-                        ? 'yellow'
+                        ? 'teal'
                         : 'blue'
                     }
                     radius="xl"
@@ -196,7 +196,7 @@ const Notifications: React.FC = () => {
       {
         id: data.id?.toString(),
         duration: data.duration || 3000,
-        position: position || 'top-right',
+        position: position || 'top-left',
       }
     );
   });

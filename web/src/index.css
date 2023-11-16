@@ -52,13 +52,13 @@ code {
 }
 
 .toast-inform {
-  background-color: #2980b9;
+  background-color: #087F5B;
 }
 
 .toast-success {
-  background-color: #27ae60;
+  background-color: #A61E4D;
 }
 
 .toast-error {
-  background-color: #c0392b;
+  background-color: #D9480F;
 }
